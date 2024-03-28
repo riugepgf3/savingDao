@@ -103,8 +103,8 @@
                 <div class="swiper-wrapper">
                   <div v-for="(item, index) in Product" :key="index" class="swiper-slide">
                     <a :href="item.link">
-                      <div class="pic"><img :src="item.image" /></div>
-                       <p>{{item.title}}</p>
+                      <div class="product-image"><img :src="item.image" /></div>
+                       <p class="product-title">{{item.title}}</p>
                     </a>
                   </div>
                   
@@ -191,5 +191,8 @@ export default {
 <style scoped>
 .mySwiper2 .swiper-wrapper{
 	justify-content: center;
+}
+.product-title {
+  background-color: white; /* 设置标题背景颜色为白色 */
 }
 </style>

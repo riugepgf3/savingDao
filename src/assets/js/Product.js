@@ -8,6 +8,11 @@ const Product = [
            "image": "/images/home2.png",
            "link": "http://dev.polaxe.net/",
 		   "title": "polaxe",
-       }
+       },
+       {
+        "image": "/images/apebridge.png",
+        "link": "https://brcbridge.pro/",
+        "title": "ape-bridge",
+    }
     ]
 export default Product
