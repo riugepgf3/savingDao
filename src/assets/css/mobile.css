@@ -1,0 +1,321 @@
+/**/
+@media screen and (min-width: 1921px) and (max-width: 4000px) {
+  html {
+    font-size: 120px;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+  html {
+    font-size: 90px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+  html {
+    font-size: 80px;
+  }
+}
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+  html {
+    font-size: 70px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  .header .nav {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    max-width: 100%;
+  }
+
+  .hidden-xs {
+    display: none;
+  }
+  .visible-xs {
+    display: block;
+  }
+}
+
+/**/
+@media (max-width: 768px) {
+  .m_nav {
+    position: absolute;
+    right: 0.15rem;
+    top: 0.2rem;
+    width: 25px;
+    z-index: 99;
+  }
+  .m_nav i {
+    display: block;
+    height: 2px;
+    background: #333;
+    margin-bottom: 6px;
+  }
+  .cross i:nth-of-type(1) {
+    -webkit-transform: translateY(8px) rotate(-45deg);
+    -ms-transform: translateY(8px) rotate(-45deg);
+    transform: translateY(8px) rotate(-45deg);
+  }
+  .cross i:nth-of-type(2) {
+    opacity: 0;
+  }
+  .cross i:nth-of-type(3) {
+    -webkit-transform: translateY(-8px) rotate(45deg);
+    -ms-transform: translateY(-8px) rotate(45deg);
+    transform: translateY(-8px) rotate(45deg);
+  }
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    max-width: 100%;
+  }
+.header .logo img {
+  width: 0.85rem;
+}
+  .header {
+    padding: 0 0.15rem;
+  }
+  .header .flex {
+    padding: 0.1rem 0;
+  }
+  .hidden-xs,
+  .header .nav {
+    display: none;
+  }
+  .visible-xs {
+    display: block;
+  }
+
+  /**/
+  .intro {
+    padding-top: 0.3rem;
+  }
+  .rule {
+    padding: 0.3rem 0;
+  }
+  .footer .flex {
+    display: block;
+  }
+  .footer ul {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.14rem;
+    line-height: 0.24rem;
+  }
+  .footer ul li {
+    margin: 0.1rem 0.2rem 0 0;
+  }
+  .footer .share {
+    padding: 0.2rem 0;
+  }
+  .intro .one .flex {
+    padding: 0 0.15rem;
+  }
+  .intro .one .img {
+    margin: 0;
+  }
+  .intro .one .flex_item,
+  .intro .one dl dt {
+    font-size: 0.24rem;
+  }
+  .intro .three {
+    display: block;
+    margin-top: 0.2rem;
+    padding: 0.15rem;
+  }
+  .intro .three img {
+    width: 100%;
+    margin: 0.1rem 0 0;
+  }
+  .intro .fire {
+    padding: 0 0 0.2rem;
+    display: block;
+  }
+  .intro .fire .box {
+    width: 100%;
+    margin-top: 0.3rem;
+  }
+  .intro .four .bd ul {
+    display: block;
+  }
+  .intro .four .bd ul li {
+    width: 100%;
+  }
+  .intro .six li {
+    display: block;
+    padding: 0.15rem;
+    margin-top: 0.15rem;
+  }
+  .intro .six .img1,
+  .intro .six .img2,
+  .intro .six .img3 {
+    width: 100%;
+    margin: 0.1rem 0 0;
+  }
+  .intro .six {
+    padding-bottom: 0.3rem;
+  }
+  .intro .two .hd {
+    display: block;
+    padding: 0.2rem 0;
+  }
+  .intro .two .hd ul li {
+    flex: 1;
+  }
+  .intro .two .hd ul li:first-child {
+    margin: 0;
+  }
+  .intro .two .hd ul {
+    margin-top: 0.15rem;
+  }
+  .intro .two .bd {
+    display: block;
+  }
+  .intro .two .bd img {
+    display: block;
+    margin: 0 auto 0.15rem;
+    border-right: none;
+  }
+  .intro .two .bd {
+    padding: 0 0.15rem 0.15rem;
+  }
+  .intro .two .bd .flex_item {
+    padding: 0;
+  }
+  .intro .two .ft {
+    display: block;
+    padding: 0.2rem 0;
+  }
+  .intro .two .ft p {
+    padding: 0.1rem 0;
+  }
+  .intro .two .ft img {
+    width: 100%;
+    margin: 0.1rem 0 0;
+  }
+  .homepage .banner {
+    height: auto;
+    padding: 0.6rem 0;
+  }
+  .homepage .banner .group a {
+    margin-right: 0.1rem;
+    font-size: 0.14rem;
+    height: 0.42rem;
+    padding-left: 0.15rem;
+  }
+  .homepage .banner .img {
+    display: none;
+  }
+  .homepage .banner p {
+    font-size: 0.14rem;
+  }
+  .homepage .banner h2,
+  .homepage .one ul li dt {
+    font-size: 0.3rem;
+  }
+  .homepage .banner .group a i {
+    width: 0.26rem;
+    height: 0.26rem;
+    margin-left: 0.15rem;
+  }
+  .homepage .one {
+    padding: 0.3rem 0;
+  }
+  .homepage .one ul {
+    margin: -0.05rem;
+  }
+  .homepage .one ul li {
+    width: 50%;
+    padding: 0.05rem;
+    font-size: 0.14rem;
+  }
+  .homepage .one ul li .box img {
+    height: 0.8rem;
+  }
+  .homepage .one ul li .box {
+    height: auto;
+    padding: 0.3rem 0;
+  }
+  .homepage .one ul li dt {
+    margin-top: 0.2rem;
+  }
+  .homepage .two {
+    padding: 0.2rem 0;
+  }
+  .homepage .two .flex {
+    display: block;
+  }
+  .homepage .two .side {
+    width: 100%;
+    margin: 0 0 0.15rem 0;
+  }
+  .homepage .two h4,
+  .homepage .title {
+    font-size: 0.24rem;
+  }
+  .homepage .three {
+    padding-top: 0.3rem;
+  }
+  .homepage .three .bd {
+    margin-top: 0.3rem;
+  }
+  .homepage {
+    padding-bottom: 0.3rem;
+  }
+  
+  .homepage .two p{
+	  line-height: 0.28rem;
+  }
+  .homepage .banner p{
+	  line-height: 0.28rem;
+  }
+  .intro .three{
+	  line-height: 0.28rem;
+  }
+  .intro .four .bd ul li dd {
+      line-height: 0.28rem;
+      font-size: 0.13rem;
+	  margin-top: 10px;
+  }
+  .intro .two{
+	  line-height: 0.28rem;
+  }
+  .intro .six li{
+	  line-height: 0.28rem;
+  }
+  .rule{
+	  line-height: 0.28rem;
+  }
+  
+  
+  .four .title2{
+	      font-size: 0.24rem !important;
+  }
+  
+  .intro .fire .tabbox .flex{
+	      flex-direction: column;
+		  width: 75%;
+  }
+  .intro .fire .img{
+	  width:100%;
+	  margin-right: 0%;
+	  margin-bottom: 20px;
+  }
+  .intro .fire .tabtitle{
+	  margin-top: 70px;
+  }
+  .intro .fire .tabtitle li.on {
+      font-size: 22px;
+  }
+  .intro .fire .tabtitle {
+      font-size: 16px;
+	}
+	
+	.intro .fire h4 {
+	    font-size: 0.21rem;
+	    font-family: Poppins-Bold1;
+	}
+}

@@ -1,0 +1,426 @@
+.homepage {
+  padding-bottom: 1rem;
+}
+.homepage .banner {
+  background-image: linear-gradient(to right, #75ffc5, #0094ff);
+  height: 7.1rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.homepage .banner::before {
+  content: "";
+  background: url(../images/home1.png) center no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.homepage .banner .container {
+  position: relative;
+  z-index: 5;
+}
+.homepage .banner .img {
+  width: 2.38rem;
+}
+.homepage .banner p {
+  font-size: 0.24rem;
+  line-height: 0.35rem;
+  padding: 0.15rem 0 0.5rem;
+  font-weight: 500;
+}
+.homepage .banner h2 {
+  font-size: 0.52rem;
+  font-family: Poppins-Bold;
+}
+.homepage .banner .group {
+  font-size: 0.18rem;
+  display: flex;
+}
+.homepage .banner .group a {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.04rem 0 rgba(0, 0, 0, 0.25);
+  border-radius: 0.52rem;
+  padding: 0 0.15rem 0 0.3rem;
+  margin-right: 0.25rem;
+  height: 0.52rem;
+}
+.homepage .banner .group a i {
+  display: block;
+  width: 0.36rem;
+  height: 0.36rem;
+  margin-left: 0.25rem;
+  background: url(../images/home12.svg) center no-repeat;
+  background-size: 100% 100%;
+}
+.homepage .banner .group a:first-child span {
+  font-family: Poppins-Bold;
+  background: -webkit-linear-gradient(
+    left,
+    #00a3ff,
+    #02ffa4
+  ); /* Safari/Chrome */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}
+.homepage .one {
+  padding: 1.5rem 0;
+  background: url(../images/home13.png) center no-repeat;
+  background-size: 100% 100%;
+}
+.homepage .one ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.2rem;
+}
+.homepage .one ul li {
+  width: 25%;
+  text-align: center;
+  font-size: 0.26rem;
+  padding: 0.2rem;
+}
+.homepage .one ul li .box {
+  background: url(../images/home11.png) center no-repeat;
+  background-size: 100% 100%;
+  height: 4.48rem;
+  padding-top: 0.6rem;
+}
+.homepage .one ul li .box img {
+  height: 1.42rem;
+}
+.homepage .one ul li dt {
+  font-family: Poppins-Bold;
+  color: #40cee0;
+  font-size: 0.62rem;
+  margin-top: 0.45rem;
+}
+.homepage .two {
+  padding: 1rem 0 1.8rem;
+  background: url(../images/home3.jpg) center no-repeat;
+  background-size: 100% 100%;
+}
+.homepage .two p {
+  font-size: 0.16rem;
+  line-height: 0.32rem;
+  margin-top: 0.2rem;
+}
+.homepage .two h4 {
+  font-family: Poppins-Bold;
+  font-size: 0.5rem;
+}
+.homepage .two .side {
+  width: 4.63rem;
+  margin-right: 0.6rem;
+}
+.homepage .title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.32rem;
+}
+.homepage .title::after {
+  content: "";
+  width: 0.78rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0.2rem auto 0;
+  background: #40d6e0;
+  border-radius: 0.1rem;
+}
+.homepage .three {
+  padding-top: 1.5rem;
+}
+.homepage .three .container {
+  max-width: 9.69rem;
+}
+.homepage .three .bd {
+  text-align: center;
+  font-size: 0.16rem;
+  font-weight: 500;
+  margin-top: 0.6rem;
+}
+.homepage .three .bd p {
+ 
+      width: 194px;
+      height: 37px;
+      background: #00FABE;
+      line-height: 37px;
+      border-radius: 39px;
+      margin: 0 auto;
+       margin-top: 0.15rem;
+      font-weight: 600;
+}
+.homepage .three .bd .pic {
+  border-radius: 0.15rem;
+  border: 1px solid #ccc;
+}
+/**/
+.intro {
+  padding-top: 0.5rem;
+}
+.intro .one .flex {
+  background: url(../images/bg1.png) center no-repeat;
+  background-size: 100% 100%;
+  padding: 0 0.5rem;
+  height: 1.9rem;
+}
+.intro .one .img {
+  width: 0.87rem;
+  margin-left: 0.4rem;
+}
+.intro .one dl {
+  text-align: right;
+  color: #fff;
+  font-size: 0.17rem;
+}
+.intro .one dl dt {
+  font-size: 0.33rem;
+  font-family: Poppins-Bold;
+}
+.intro .one dl dt span {
+  color: #00f19a;
+}
+.intro .one dl div {
+  color: #00f19a;
+  font-family: Poppins-Bold;
+}
+.intro .one .flex_item {
+  font-family: Poppins-Bold;
+  font-size: 0.48rem;
+}
+.intro .two {
+  font-size: 0.15rem;
+  line-height: 0.3rem;
+}
+.intro .two .hd {
+  padding: 0.4rem 0;
+}
+.intro .two .hd ul {
+  display: flex;
+}
+.intro .two .hd ul li {
+  width: 1.5rem;
+  margin-left: 0.1rem;
+}
+.intro .two .hd ul li .pic {
+  border-radius: 0.1rem;
+}
+.intro .two .hd ul li img {
+  height: 2.3rem;
+}
+
+.intro .two .bd {
+  border: 2px solid #000;
+  font-weight: 500;
+}
+.intro .two .bd .flex_item {
+  padding: 0 0.4rem;
+}
+.intro .two .bd img {
+  border-right: 2px solid #000;
+}
+.intro .two .ft {
+  align-items: stretch;
+  padding: 0.5rem 0;
+}
+.intro .two .ft p {
+  padding: 0.2rem 0;
+}
+.intro .two .ft img {
+  margin-left: 1.2rem;
+  width: 2.97rem;
+}
+.intro .three {
+  border: 2px solid #000;
+  border-radius: 0.18rem;
+  line-height: 0.31rem;
+  padding: 0 0.5rem;
+  margin-top: 0.7rem;
+}
+.intro .three img {
+  width: 3.07rem;
+  margin-top: -0.4rem;
+  margin-left: 0.8rem;
+}
+.intro .four {
+  padding: 0.5rem 0;
+}
+.intro .four .title,
+.intro .fire .title {
+  font-size: 0.2rem;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.15rem;
+  margin-bottom: 0.2rem;
+  font-weight: 500;
+}
+.intro .four .bd ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.intro .four .bd ul li {
+  width: 30%;
+}
+.intro .four .bd ul li dd {
+  line-height: 0.31rem;
+  font-size: 0.12rem;
+}
+.intro .four .bd ul li dt {
+  font-weight: 500;
+  margin-top: 0.15rem;
+}
+.intro .fire {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+.intro .fire .box {
+  width: 44%;
+  text-align: center;
+}
+.intro .fire .box img {
+  width: 90%;
+}
+.intro .fire .title {
+  text-align: left;
+}
+.intro .fire .swiper-button-next,
+.intro .fire .swiper-button-prev {
+  width: 0.44rem;
+  height: 0.44rem;
+  background: #dddddf;
+  color: #3dd5cc;
+  display: none;
+}
+.intro .fire .swiper:hover .swiper-button-next{
+	display: flex;
+}
+.intro .fire .swiper:hover .swiper-button-prev{
+	display: flex;
+}
+.intro .fire .swiper-button-prev {
+  left: 0;
+}
+.intro .fire .swiper-button-next {
+  right: 0;
+}
+.intro .fire .swiper-button-next::after,
+.intro .fire .swiper-button-prev::after {
+  font-size: 0.28rem;
+}
+.intro .six {
+  padding-bottom: 0.5rem;
+}
+.intro .six li {
+  display: flex;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 0.18rem;
+  line-height: 0.31rem;
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+.intro .six .img1 {
+  width: 6.94rem;
+  margin-top: -0.3rem;
+  margin-left: 0.4rem;
+}
+.intro .six .img2 {
+  width: 2.89rem;
+  margin: -0.3rem 0.8rem 0;
+}
+.intro .six .img3 {
+  width: 4.11rem;
+  margin: 0 0.2rem 0 0.5rem;
+}
+/**/
+.services .container {
+  max-width: 10.24rem;
+}
+.services {
+  padding: 0.5rem 0;
+}
+.services .bd li {
+  display: flex;
+  padding: 0.4rem 0;
+}
+.services .bd li p {
+  font-size: 0.15rem;
+  line-height: 0.24rem;
+  font-weight: 500;
+}
+.services .bd li .pic {
+  margin-left: 0.75rem;
+  width: 2.55rem;
+}
+.services .bd li h3 {
+  padding: 0.23rem 0;
+  font-size: 0.32rem;
+  font-family: Poppins-Bold;
+}
+/**/
+.contact {
+  background-image: linear-gradient(to right, #75ffc5, #0094ff);
+  height: 7.8rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.contact::before {
+  content: "";
+  background: url(../images/contact6.png) right top no-repeat;
+  background-size: 5.31rem auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.contact li {
+  display: flex;
+  align-items: center;
+  font-size: 0.24rem;
+  font-weight: 500;
+  line-height: 0.66rem;
+}
+.contact li img {
+  margin-right: 0.3rem;
+  width: 0.4rem;
+}
+.contact h2 {
+  font-family: Poppins-Bold;
+  font-size: 0.48rem;
+  padding-bottom: 0.4rem;
+}
+.contact .container {
+  max-width: 9rem;
+}
+.contact .pic {
+  width: 2.32rem;
+}
+/**/
+.rule {
+  line-height: 0.31rem;
+  padding: 0.5rem 0;
+  padding-bottom: 0.6rem;
+}
+.rule h4 {
+  font-family: Poppins-Bold1;
+}
+.rule h3 {
+  font-family: Poppins-Bold;
+  font-size: 0.2rem;
+  padding-top: 0.3rem;
+}
+.rule b {
+  font-family: Poppins-Bold1;
+  padding-left: 0.15rem;
+}
+.rule p a {
+  text-decoration: underline;
+  color: #0094ff;
+}
