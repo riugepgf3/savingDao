@@ -192,6 +192,11 @@ export default {
 .mySwiper2 .swiper-wrapper{
 	justify-content: center;
 }
+.product-image img {
+  width: 100%; /* 确保图像填充其容器 */
+  height: auto; /* 保持宽高比 */
+  object-fit: cover; /* 保持宽高比并覆盖容器 */
+}
 .product-title {
   background-color: white; /* 设置标题背景颜色为白色 */
 }

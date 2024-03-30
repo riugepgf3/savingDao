@@ -10,26 +10,26 @@
          <!--#menu-->
          <ul class="nav">
           
-          <li @click="liopen = !liopen" :class="liopen?'on':''">
+          <li @click="toggleSubMenu('ecosystem')" :class="{'on': liopen === 'ecosystem'}">
             <a href="javascript:;">Ecosystem</a><i></i>
             <ol class="dropdown">
-              <li><a href="http://dev.polaxe.net/">POLAXE </a></li>
-              <li><a href="https://decheck.cc/">DECHECK </a></li>
-              <li><a href="https://gascoin.xyz/">GASCOIN </a></li>
-              <li><a href="https://brcbridge.pro/">APEBRIDGE </a></li>
+              <li><a href="http://dev.polaxe.net/"  target="_blank">POLAXE </a></li>
+              <li><a href="https://decheck.cc/"  target="_blank">DECHECK </a></li>
+              <li><a href="https://gascoin.xyz/"  target="_blank">GASCOIN </a></li>
+              <li><a href="https://brcbridge.pro/"  target="_blank">APEBRIDGE </a></li>
             </ol>
           </li>
-          <li @click="liopen = !liopen" :class="liopen?'on':''">
-            <a href="javascript:;">DAO</a><i></i>
+            <li @click="toggleSubMenu('dao')" :class="{'on': liopen === 'dao'}">
+              <a href="javascript:;">Dao</a><i></i>
             <ol class="dropdown">
               <li><a href="/#/">Overview </a></li>
-              <li><a href="https://tally.so/r/mBkozR">Become a Saver </a></li>
-              <li><a href="/#/governance">Governance </a></li>
+              <li><a href="https://tally.so/r/mBkozR"  target="_blank">Become a Saver </a></li>
+              <li><a href="/#/governance"  target="_blank">Governance </a></li>
               <li><a href="/#/">Code of Contract </a></li>
             </ol>
           </li>
 
-          <li @click="liopen = !liopen" :class="liopen?'on':''">
+          <li @click="toggleSubMenu('economics')" :class="{'on': liopen === 'economics'}">
             <a href="javascript:;">Economics</a><i></i>
             <ol class="dropdown">
               <li><a href="/#/">Saving Coin </a></li>
@@ -39,7 +39,7 @@
             </ol>
           </li>
 
-          <li @click="liopen = !liopen" :class="liopen?'on':''">
+          <li @click="toggleSubMenu('resources')" :class="{'on': liopen === 'resources'}">
             <a href="javascript:;">Resources</a><i></i>
             <ol class="dropdown">
               <li><a href="https://savings.gitbook.io/saving-dao">Whitepaper </a></li>
@@ -49,12 +49,12 @@
             </ol>
           </li>
 
-          <li @click="liopen = !liopen" :class="liopen?'on':''">
+          <li @click="toggleSubMenu('socials')" :class="{'on': liopen === 'socials'}">
             <a href="javascript:;">Socials</a><i></i>
             <ol class="dropdown">
-              <li><a href="https://twitter.com/Savingdao">Twitter </a></li>
-              <li><a href="https://discord.com/invite/savingdao">Discord </a></li>
-              <li><a href="https://t.me/Saving_Dao">Telegram </a></li>
+              <li><a href="https://twitter.com/Savingdao"  target="_blank">Twitter </a></li>
+              <li><a href="https://discord.com/invite/savingdao"  target="_blank">Discord </a></li>
+              <li><a href="https://t.me/Saving_Dao"  target="_blank">Telegram </a></li>
             </ol>
           </li>
 
@@ -90,10 +90,10 @@
               <li @click="toggleSubMenu('ecosystem')" :class="{'on': liopen === 'ecosystem'}">
               <a href="javascript:;">Ecosystem </a><i></i>
               <ol class="dropdown">
-                <li><a href="http://dev.polaxe.net/">POLAXE </a></li>
-                <li><a href="https://decheck.cc/">DECHECK </a></li>
-                <li><a href="https://gascoin.xyz/">GASCOIN </a></li>
-                <li><a href="https://brcbridge.pro/">APEBRIDGE </a></li>
+                <li><a href="http://dev.polaxe.net/"  target="_blank">POLAXE </a></li>
+                <li><a href="https://decheck.cc/"  target="_blank">DECHECK </a></li>
+                <li><a href="https://gascoin.xyz/"  target="_blank">GASCOIN </a></li>
+                <li><a href="https://brcbridge.pro/"  target="_blank">APEBRIDGE </a></li>
                 
               </ol>
             </li>
@@ -103,8 +103,8 @@
               <a href="javascript:;">DAO</a><i></i>
               <ol class="dropdown">
                 <li><a href="/#/">Overview </a></li>
-                <li><a href="https://tally.so/r/mBkozR">Become a Saver </a></li>
-                <li><a href="/#/governance">Governance </a></li>
+                <li><a href="https://tally.so/r/mBkozR"  target="_blank">Become a Saver </a></li>
+                <li><a href="/#/governance"  target="_blank">Governance </a></li>
                 <li><a href="/#/">Code of Contract </a></li>
                 
               </ol>
@@ -138,9 +138,9 @@
               <li @click="toggleSubMenu('socials')" :class="{'on': liopen === 'socials'}">
               <a href="javascript:;">Socials </a><i></i>
               <ol class="dropdown">
-                <li><a href="https://twitter.com/Savingdao">Twitter </a></li>
-                <li><a href="https://discord.com/invite/savingdao">Discord </a></li>
-                <li><a href="https://t.me/Saving_Dao">Telegram </a></li>
+                <li><a href="https://twitter.com/Savingdao"  target="_blank">Twitter </a></li>
+                <li><a href="https://discord.com/invite/savingdao"  target="_blank">Discord </a></li>
+                <li><a href="https://t.me/Saving_Dao"  target="_blank">Telegram </a></li>
               </ol>
             </li>
 
