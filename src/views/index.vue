@@ -13,7 +13,7 @@
                   </p>
                   <div class="group">
                 <!--    <a href="#"><span>Polaxe</span><i></i></a>   -->
-                    <a href="https://savings.gitbook.io/saving-dao"><span>Whitepaper </span><i></i></a>
+                    <a href="https://savings.gitbook.io/saving-dao" target="_blank"><span>Whitepaper </span><i></i></a>
                   </div>
                 </div>
               </div>

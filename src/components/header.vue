@@ -42,7 +42,7 @@
           <li @click="toggleSubMenu('resources')" :class="{'on': liopen === 'resources'}">
             <a href="javascript:;">Resources</a><i></i>
             <ol class="dropdown">
-              <li><a href="https://savings.gitbook.io/saving-dao">Whitepaper </a></li>
+              <li><a href="https://savings.gitbook.io/saving-dao" target="_blank">Whitepaper </a></li>
               <li><a href="/#/">FAQs </a></li>
               <li><a href="/#/">Docs </a></li>
               <li><a href="/#/">APIs </a></li>
