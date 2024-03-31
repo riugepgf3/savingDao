@@ -13,10 +13,10 @@
           <li @click="toggleSubMenu('ecosystem')" :class="{'on': liopen === 'ecosystem'}">
             <a href="javascript:;">Ecosystem</a><i></i>
             <ol class="dropdown">
-              <li><a href="http://dev.polaxe.net/"  target="_blank">POLAXE </a></li>
               <li><a href="https://decheck.cc/"  target="_blank">DECHECK </a></li>
               <li><a href="https://gascoin.xyz/"  target="_blank">GASCOIN </a></li>
               <li><a href="https://brcbridge.pro/"  target="_blank">APEBRIDGE </a></li>
+              <li><a href="http://dev.polaxe.net/"  target="_blank">POLAXE </a></li>
             </ol>
           </li>
             <li @click="toggleSubMenu('dao')" :class="{'on': liopen === 'dao'}">
@@ -90,11 +90,10 @@
               <li @click="toggleSubMenu('ecosystem')" :class="{'on': liopen === 'ecosystem'}">
               <a href="javascript:;">Ecosystem </a><i></i>
               <ol class="dropdown">
-                <li><a href="http://dev.polaxe.net/"  target="_blank">POLAXE </a></li>
                 <li><a href="https://decheck.cc/"  target="_blank">DECHECK </a></li>
                 <li><a href="https://gascoin.xyz/"  target="_blank">GASCOIN </a></li>
                 <li><a href="https://brcbridge.pro/"  target="_blank">APEBRIDGE </a></li>
-                
+                <li><a href="http://dev.polaxe.net/"  target="_blank">POLAXE </a></li>
               </ol>
             </li>
 
