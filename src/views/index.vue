@@ -120,8 +120,10 @@
  import mainheader from '/@/components/header.vue'	
  import mainfooter from '/@/components/footer.vue'	
  import Community from '/@/assets/js/Community'
-  import Product from '/@/assets/js/Product'
+ import Product from '/@/assets/js/Product'
  import Swiper from 'swiper';
+ import { Autoplay }  from 'swiper/modules';
+Swiper.use(Autoplay);
 
 export default {
 	components: {
