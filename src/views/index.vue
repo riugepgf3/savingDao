@@ -192,7 +192,7 @@ export default {
 </script>
 <style scoped>
 .mySwiper2 .swiper-wrapper{
-	justify-content: center;
+/*	justify-content: center; */
 }
 .product-image img {
   width: 100%; /* 确保图像填充其容器 */
